@@ -6,6 +6,8 @@ on:
       - master
   schedule:
     - cron: 0/5 * * * *
+  issues:
+    types: [opened]
 
 jobs:
   file_sync:

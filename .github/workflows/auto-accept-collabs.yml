@@ -16,6 +16,6 @@ jobs:
       - name: Fetching Local Repository
         uses: actions/checkout@latest
       - name: Auto Accept Collabs
-        uses: kbrashears5/github-action-auto-accept-collabs@v2.0.1
+        uses: kbrashears5/github-action-auto-accept-collabs@v2.0.0
         with:
           TOKEN: ${{ secrets.ACTIONS }}

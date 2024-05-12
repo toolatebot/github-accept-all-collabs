@@ -14,8 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Fetching Local Repository
-        uses: actions/checkout@v2.0.1
+        uses: actions/checkout@latest
       - name: Auto Accept Collabs
-        uses: kbrashears5/github-action-auto-accept-collabs@latest
+        uses: kbrashears5/github-action-auto-accept-collabs@v2.0.1
         with:
           TOKEN: ${{ secrets.ACTIONS }}
